@@ -1,0 +1,7 @@
+-e git+https://github.com/brettelliot/balsam.git@e990d72d32c5c48483a14622bcda429c87b98036#egg=balsam
+click==7.1.1
+Flask==1.1.2
+itsdangerous==1.1.0
+Jinja2==2.11.2
+MarkupSafe==1.1.1
+Werkzeug==1.0.1
