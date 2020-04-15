@@ -11,7 +11,7 @@ git checkout master
 git pull origin master
 
 # let's branch to make changes
-git checkout -b my-new-feature
+git checkout -b be-feature
 
 # go ahead, make changes now.
 $EDITOR file
@@ -23,12 +23,12 @@ git commit -m "my changes"
 # keep abreast of other changes, to your feature branch or master.
 # rebasing keeps our code working, merging easy, and history clean.
 git fetch origin
-git rebase origin/my-new-feature
+git rebase origin/be-feature
 git rebase origin/master
 
 # optional: push your branch for discussion (pull-request)
 #           you might do this many times as you develop.
-git push origin my-new-feature
+git push origin be-feature
 
 # optional: feel free to rebase within your feature branch at will.
 #           ok to rebase after pushing if your team can handle it!
@@ -40,7 +40,7 @@ git rebase -i origin/master
 # github takes care of this in a Pull-Request merge
 git checkout master
 git pull origin master
-git merge --no-ff my-new-feature
+git merge --no-ff be-feature
 
 
 # optional: tag important things, such as releases
