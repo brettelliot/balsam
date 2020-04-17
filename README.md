@@ -26,3 +26,6 @@ export FLASK_ENV=development
 # run the application
 flask run
 ```
+## Test the application
+Navigate to: http://127.0.0.1:5000/
+Navigate to: http://127.0.0.1:5000/balsam/api/v1/tests/simple-object
