@@ -42,9 +42,14 @@ git checkout master
 git pull origin master
 git merge --no-ff be-feature
 
-
 # optional: tag important things, such as releases
-git tag 1.0.0-RC1
+git tag 1.0.0
+
+# push single tag
+git push origin 1.0.0
+
+# Push all tags
+git push origin --tags
 ```
 
 ### useful config
