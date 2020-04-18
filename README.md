@@ -28,7 +28,7 @@ export BALSAM_API_KEY=demo_key
 flask run
 ```
 ## Test the application
-avigate to: http://127.0.0.1:5000/
-Navigate to: http://127.0.0.1:5000/balsam/api/v1/tests/simple-object
-Navigate to:
-http://127.0.0.1:5000/balsam/api/v1/tests/secure-object?api_key=demo_key
+Navigate to: 
+* http://127.0.0.1:5000/
+* http://127.0.0.1:5000/balsam/api/v1/tests/simple-object
+* http://127.0.0.1:5000/balsam/api/v1/tests/secure-object?api_key=demo_key
