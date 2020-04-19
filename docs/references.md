@@ -5,4 +5,4 @@
   flask](https://flask.palletsprojects.com/en/1.1.x/patterns/packages/)
 * [API key in route using a
   decorator](https://coderwall.com/p/4qickw/require-an-api-key-for-a-route-in-flask-using-only-a-decorator)
-
+* [Sqlalchemy](https://auth0.com/blog/sqlalchemy-orm-tutorial-for-python-developers/)

@@ -2,7 +2,7 @@
 from . import app
 from flask import jsonify
 from . import env_auth
-
+from . import model
 
 @app.route('/', methods=['GET'])
 def root():
@@ -19,3 +19,9 @@ def secure_object():
     obj = {'secure_string_member': 'secure string value', \
            'secure_int_member': 3}
     return jsonify(obj)
+
+@app.route('/balsam/api/v1/tests/secure-pg-object', methods=['GET'])
+@env_auth.require_api_key
+def secure_pg_object():
+    records = model.get_records()
+    return jsonify(records)
